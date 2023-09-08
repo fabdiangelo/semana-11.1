@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="index.css" rel="stylesheet">
+</head>
+<body>
+    <main id="gba">
+        <section id="left-buttons">
+            <button class="left-button" id="left"></button> <!-- usar icons del -->
+            <button class="left-button" id="top"></button>
+            <button class="left-button" id="bottom"></button>
+            <button class="left-button" id="right"></button>
+            <section id="more-buttons">
+                <label class="start-select-label" for="start-button">Start</label>
+                <button class="start-select" id="start-button"></button>
+                <br>
+                <label class="start-select-label" for="select-button">Select</label>
+                <button class="start-select" id="select-button"></button>
+            </section>
+        </section>
+
+        <section id="center">
+            <div id="window">
+            </div>
+        </section>
+        <section id="right-buttons">
+            <button class="right-button" id="a">A</button>
+            <button class="right-button" id="b">B</button>
+        </section>
+    </main>
+    <div id="instructions">
+        <h3>Instrucciones:</h3>
+        <ul>
+            <li>Presione 'A' para ver un pokemón aleatorio</li>
+            <li>Presione 'B' para ver un pókemon aleatorio de tipo dragón</li>
+            <li>Utilice la cruzeta para ver al pokemon siguiente o bien al anterior según la PokeDex</li>
+            <li>Presione 'Select' para ver la forma Shiny del pokemón</li>
+            <li>Presione 'Start' para intercambiar la imagen principal</li>
+        </ul>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
