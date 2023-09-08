@@ -117,7 +117,7 @@ function ready (data){
                 pokeData.types.forEach(element => {
                     const type = document.createElement('p')
                     type.classList = 'type'
-                    type.id = element.type.name // Hacer en el css un color de background distinto para cada tipo
+                    type.id = element.type.name
                     type.innerHTML = element.type.name
                     types.appendChild(type)
                 });
